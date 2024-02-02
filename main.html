@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Adoption Application</title>
+  <style>
+    
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <form>
+    <!-- Name -->
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Name" required>
+
+    <!-- Phone Number -->
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+
+    <!-- Address -->
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Address" required>
+
+    <!-- Have you ever lived with a Dog before? -->
+    <label>
+      <input type="checkbox" id="haveLivedWithDog" name="haveLivedWithDog" value="Have you ever lived with a Dog before?">
+      Have you ever lived with a Dog before?
+    </label>
+
+    <!-- Preferred Breeds (Multi-select) -->
+    <label for="preferredBreeds">Please select your preferred breeds</label>
+    <select id="preferredBreeds" name="preferredBreeds" multiple size="3">
+      <option value="labrador">Labrador</option>
+      <option value="goldenRetriever">Golden Retriever</option>
+      <option value="germanShepherd">German Shepherd</option>
+      <!-- Add more options as needed -->
+    </select>
+
+    <!-- Submit Button -->
+    <button id="submit" type="submit" value="Submit">Submit</button>
+  </form>
 
 </body>
-
 </html>
