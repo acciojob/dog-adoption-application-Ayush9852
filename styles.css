@@ -34,7 +34,7 @@
       margin-right: 8px;
     }
 
-    button {
+    input[type="submit"]  {
       background-color: #4caf50;
       color: #fff;
       padding: 10px 15px;
@@ -43,6 +43,6 @@
       cursor: pointer;
     }
 
-    button:hover {
+    input[type="submit"]:hover {
       background-color: #45a049;
     }
